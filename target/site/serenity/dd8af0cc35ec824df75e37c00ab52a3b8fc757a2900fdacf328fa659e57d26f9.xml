@@ -1,0 +1,14 @@
+<acceptance-test-run title="Users with different case in name are the same" name="usersWithDifferentCaseInNameAreTheSame" steps="0" successful="0" failures="0" skipped="0" ignored="0" pending="0" annotated-result="PENDING" result="PENDING" duration="3" timestamp="2016-02-24T13:36:23.099Z" session-id="057205e8-1038-4f4b-92dd-13d155e962d7">
+  <user-story id="com.xpinjection.bank.BankApplication.AccountsManagement.MultipleUsersSupport" name="Multiple users support" path="com.xpinjection.bank.BankApplication.AccountsManagement">
+    <feature id="com.xpinjection.bank.BankApplication.AccountsManagement" name="Accounts management"/>
+  </user-story>
+  <issues>
+    <issue>#WIKI-1</issue>
+    <issue>#123</issue>
+    <issue>#456</issue>
+  </issues>
+  <tags>
+    <tag name="Accounts management" type="feature"/>
+    <tag name="Multiple users support" type="story"/>
+  </tags>
+</acceptance-test-run>

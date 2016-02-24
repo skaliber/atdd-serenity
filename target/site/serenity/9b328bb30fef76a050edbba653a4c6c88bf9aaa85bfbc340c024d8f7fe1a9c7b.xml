@@ -1,0 +1,55 @@
+<acceptance-test-run title="Create different accounts" name="createDifferentAccounts" steps="5" successful="5" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="7269" timestamp="2016-02-24T13:36:15.774Z" session-id="057205e8-1038-4f4b-92dd-13d155e962d7">
+  <user-story id="com.xpinjection.bank.BankApplication.AccountsManagement.MultipleUsersSupport" name="Multiple users support" path="com.xpinjection.bank.BankApplication.AccountsManagement">
+    <feature id="com.xpinjection.bank.BankApplication.AccountsManagement" name="Accounts management"/>
+  </user-story>
+  <issues>
+    <issue>#123</issue>
+    <issue>#456</issue>
+  </issues>
+  <tags>
+    <tag name="Accounts management" type="feature"/>
+    <tag name="Multiple users support" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="4673">
+    <screenshots>
+      <screenshot image="254a30219dad1fbd81bbd4faa14fff67.png"/>
+    </screenshots>
+    <description>Open accounts page</description>
+  </test-step>
+  <test-group name="Register account: &lt;span class=&apos;step-parameter&apos;&gt;Bob, 5.0&lt;/span&gt;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="703d6023d6b1a1d10f05918b4b548dd0.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="383">
+      <screenshots>
+        <screenshot image="a8b42e349a3b3b9ebe136fe31fc0cda0.png"/>
+      </screenshots>
+      <description>Enter user name: &lt;span class=&apos;step-parameter&apos;&gt;Bob&lt;/span&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="644">
+      <screenshots>
+        <screenshot image="a8b42e349a3b3b9ebe136fe31fc0cda0.png"/>
+        <screenshot image="b886d5a52802e43147b579138bba6669.png"/>
+      </screenshots>
+      <description>Enter amount: &lt;span class=&apos;step-parameter&apos;&gt;5.0&lt;/span&gt;</description>
+    </test-step>
+  </test-group>
+  <test-group name="Register account: &lt;span class=&apos;step-parameter&apos;&gt;John, 2.0&lt;/span&gt;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="7748b971bbfa5c2b83d700481cc889a2.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="328">
+      <screenshots>
+        <screenshot image="6c3f5c5ed3c367ad47aeb1197af0bae0.png"/>
+      </screenshots>
+      <description>Enter user name: &lt;span class=&apos;step-parameter&apos;&gt;John&lt;/span&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="430">
+      <screenshots>
+        <screenshot image="6c3f5c5ed3c367ad47aeb1197af0bae0.png"/>
+        <screenshot image="fdf00c73104fc51f601c960db7567211.png"/>
+      </screenshots>
+      <description>Enter amount: &lt;span class=&apos;step-parameter&apos;&gt;2.0&lt;/span&gt;</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>
